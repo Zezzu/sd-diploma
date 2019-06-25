@@ -1,6 +1,6 @@
 # SD. Крэпс
 
-###### tags: `netology` `advanced js`
+###### tags: `netology` `js`
 
 ## Предыстория
 
