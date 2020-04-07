@@ -49,7 +49,7 @@ body {
   position: absolute;
 }
 
-/* Таблица точек */
+/* The points table */
 
 .app-table {
   position: relative;
@@ -66,7 +66,7 @@ body {
 }
 
 .app-table__x {
-  padding-left: calc(0.7rem * 2 + 1.3rem); /* место под У-ось */
+  padding-left: calc(0.7rem * 2 + 1.3rem); /* place under y-axis */
 }
 
 .app-table__x-decor::before {
@@ -80,20 +80,19 @@ body {
   position: absolute;
   transform: rotate(90deg);
   transform-origin: left top 0;
-  top: calc(3.5rem + 7rem + 1.1rem + 1.3rem + 0.7rem * 2); /* паддинг родителя + высота элемента + марджин + высота Х-оси + её паддинги */
-  left: calc(0px + 7rem + 5rem); /* исходная + высота элемента + паддинг родителя */
+  top: calc(3.5rem + 7rem + 1.1rem + 1.3rem + 0.7rem * 2);
 }
 
 .app-table__body {
   position: relative;
   width: 440px;
   margin-top: 1.1rem;
-  padding-left: calc(0.7rem * 2 + 1.3rem); /* место под У-ось */
+  padding-left: calc(0.7rem * 2 + 1.3rem); /* place under y-axis */
 }
 
 .app-table__body-x {
   position: relative;
-  left: -7px; /* сдвиг на zero */
+  left: -7px; /* the shift to zero */
   display: flex;
   width: 413px;
   padding: 0.7rem 0;
@@ -105,7 +104,7 @@ body {
 }
 
 .app-table__body-x-coord {
-  width: calc(5px * 10 + 3px * 10); /* 10 точек 10 промежутков */
+  width: calc(5px * 10 + 3px * 10); /* 10 points 10 intervals */
   font-size: 1.3rem;
   line-height: 1.3rem;
 }
@@ -116,7 +115,7 @@ body {
 
 .app-table__body-y {
   position: absolute;
-  top: calc(0.7rem * 2 + 1.3rem); /* высота Х-оси + паддинги */
+  top: calc(0.7rem * 2 + 1.3rem); /* height X-axis + paddingy */
   left: 0;
   padding: 0 0.7rem;
 }
@@ -134,7 +133,7 @@ body {
   margin-top: 6px;
 }
 
-/* ~ Точки ~ */
+/* ~ points ~ */
 
 .app-table__body-content {
   position: relative;
@@ -185,7 +184,7 @@ body {
   background-color: var(--orange);
 }
 
-/* Продолжительность */
+/* lifespan */
 
 .app-table__body-comment {
   position: absolute;
@@ -270,7 +269,7 @@ body {
   content: attr(data-sex);
 }
 
-/* Легенда */
+/* legend */
 
 .app-table__body-legend {
   display: flex;
@@ -341,7 +340,7 @@ body {
   line-height: 3.9rem;
 }
 
-/* Добавить данные */
+/* Add data */
 
 .app-controls__button {
   width: 205px;
@@ -403,7 +402,6 @@ body {
   display: none;
 }
 
-
 .app-data-form__container {
   display: flex;
   justify-content: space-between;
@@ -419,7 +417,7 @@ body {
   left: -1rem;
 }
 
-/* м/ж */
+/* m/f */
 
 .app-data-form__field-switcher {
   position: relative;
@@ -523,7 +521,7 @@ body {
   opacity: 0;
 }
 
-/* Поделиться */
+/* share */
 
 .app-share__textarea {
   width: 100%;
@@ -585,14 +583,13 @@ body {
   background-size: 2.6rem 1.6rem;
 }
 
-/* Скачать */
+/* download */
 .app-save-form {
   display: flex;
   justify-content: space-between;
 }
 
-
-/* Цитата */
+/* quote */
 
 .app-quote__title {
   font-size: 0;
